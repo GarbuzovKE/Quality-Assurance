@@ -186,7 +186,7 @@ if __name__ == "__main__":
     first_browser_tab = _driver.window_handles[0]
     _driver.switch_to.window(first_browser_tab)
     _driver.implicitly_wait(5)
-    _driver.set_page_load_timeout(10)
+    # _driver.set_page_load_timeout(10)
     email = "amazingemaildude@omg.com"
     password = "!@#Amazing_password_dude"
     # login(_driver, email, password)
